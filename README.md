@@ -1,42 +1,45 @@
 # Minesweeper Terminal
 
-Campo Minato classico per terminale Windows con grafica colorata e controlli mouse.
+[![C++11+](https://img.shields.io/badge/C%2B%2B-11%2B-00599C?logo=cplusplus&logoColor=white)](#compilation)
+[![Platform: Windows](https://img.shields.io/badge/platform-Windows-7B68EE)](#requirements)
 
-## Descrizione
+Classic Minesweeper for the Windows terminal, featuring colorful graphics and mouse controls.
 
-Versione giocabile del Minesweeper per console Windows. Interfaccia colorata con ANSI, controlli mouse nativi e tutte le meccaniche del gioco originale.
+## Description
 
-## Caratteristiche
+A playable version of Minesweeper for the Windows console, with a colorful ANSI interface, native mouse controls, and all the mechanics of the original game.
 
-- Controlli con mouse (sinistro scopre, destro bandiera)
-- 5 livelli di difficoltà (Easy → Impossible)
-- Timer e contatore bandierine
-- Grafica colorata nel terminale
-- Espansione automatica celle vuote
-- Menu interattivo
+## Features
 
-## Livelli
+- Mouse controls (left-click to reveal, right-click to flag)
+- 5 difficulty levels (Easy → Impossible)
+- Timer and flag counter
+- Colorful terminal graphics
+- Automatic expansion of empty cells
+- Interactive menu
 
-- **Easy**: 15×25, 25 mine
-- **Medium**: 20×35, 60 mine
-- **Hard**: 26×43, 180 mine
-- **Insane**: 28×45, 250 mine
-- **Impossible**: 28×45, 400 mine
+## Difficulty Levels
 
-## Compilazione
+- **Easy**: 15×25, 25 mines
+- **Medium**: 20×35, 60 mines
+- **Hard**: 26×43, 180 mines
+- **Insane**: 28×45, 250 mines
+- **Impossible**: 28×45, 400 mines
+
+## Compilation
 ```bash
 g++ main.cpp r.o -o Minesweeper.exe
 ```
 
-## Requisiti
+## Requirements
 
 - Windows
-- Compilatore C++ (C++11+)
-- Terminale con supporto ANSI
+- C++ compiler (C++11+)
+- Terminal with ANSI support
 
-## Come Giocare
+## How to Play
 
-1. Scegli difficoltà dal menu
-2. Click sinistro = scopri cella
-3. Click destro = piazza/rimuovi bandiera
-4. Scopri tutte le celle senza mine per vincere
+1. Choose a difficulty level from the menu
+2. Left-click to reveal a cell
+3. Right-click to place or remove a flag
+4. Reveal all cells without mines to win
